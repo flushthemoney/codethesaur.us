@@ -1,9 +1,7 @@
 name: Docker-BuildTest
 
 on:
-  push:
-    branches:
-      - "main"
+  push
 
 env:
   TEST_TAG: user/app:test
